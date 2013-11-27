@@ -1,0 +1,21 @@
+{
+    "name": "nodepub/monolog-json-service-provider",
+    "type": "library",
+    "description": "Simple static-file blog engine",
+    "keywords": ["silex"],
+    "homepage": "https://github.com/nodepub/monolog-json-service-provider",
+    "license": "MIT",
+    "authors": [
+        {"name": "Andrew Gruner", "email": "andrew.gruner@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/yaml"             : "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "NodePub\\Monolog": "src/",
+            "NodePub\\Provider": "src/"
+        }
+    }
+}

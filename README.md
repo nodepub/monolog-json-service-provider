@@ -1,4 +1,4 @@
-monolog-json-service-provider
+Monolog JSON Service Provider
 =============================
 
-Silex service provider for logging all events as json objects.
+Silex service provider for logging events as json objects.
